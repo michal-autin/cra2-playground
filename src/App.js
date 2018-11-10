@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Wizard from "./components/Wizard";
 
 class App extends Component {
   render() {
+    // console.log(process.env.NODE_ENV);
     return (
       <div className="App">
         <header className="App-header">
@@ -20,6 +22,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <Wizard />
       </div>
     );
   }

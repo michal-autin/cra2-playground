@@ -1,0 +1,10 @@
+.wizard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #e3695b;
+}
+
+.wizard-step {
+  min-width: 300px;
+  background-color: #aeceb6;
+}
