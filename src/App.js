@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Wizard from "./components/Wizard";
+import CheckoutForm from "./components/CheckoutForm";
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           </a>
         </header>
         <Wizard />
+        <CheckoutForm />
       </div>
     );
   }
